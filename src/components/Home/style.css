@@ -1,0 +1,19 @@
+#Home {
+    text-align: center;
+  }
+  
+  #Home h1 {
+    color: #e69fcf;
+    font-weight: 800;
+    font-size: 60px;
+  }
+  
+  #Home p {
+    color: #090909;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  
+  #Home span {
+    color: #00b5ad;
+  }
