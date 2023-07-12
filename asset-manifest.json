@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.8aea4436.css",
+    "main.js": "/my-react-portfolio/static/js/main.5ddb77a0.js",
+    "static/media/Go-Blogging-Tech.png": "/my-react-portfolio/static/media/Go-Blogging-Tech.8b2fa3a619b66dc0302c.png",
+    "static/media/AIO-App.png": "/my-react-portfolio/static/media/AIO-App.ec05877c8cc5fe2340b8.png",
+    "static/media/Recipe-Bank.png": "/my-react-portfolio/static/media/Recipe-Bank.0abe53f54682129edbd0.png",
+    "static/media/Scheduler-App.png": "/my-react-portfolio/static/media/Scheduler-App.c49b72fb8634abccfd0f.png",
+    "static/media/Weather-App-With-Map.png": "/my-react-portfolio/static/media/Weather-App-With-Map.ba7255006cc5ea5af2c8.png",
+    "static/media/Text-Editing-Everywhere.png": "/my-react-portfolio/static/media/Text-Editing-Everywhere.dad08fcae39117d3ceaa.png",
+    "static/media/sanjay.jpeg": "/my-react-portfolio/static/media/sanjay.b7e2857c34f4f4e99d9c.jpeg",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.8aea4436.css.map": "/my-react-portfolio/static/css/main.8aea4436.css.map",
+    "main.5ddb77a0.js.map": "/my-react-portfolio/static/js/main.5ddb77a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aea4436.css",
+    "static/js/main.5ddb77a0.js"
+  ]
+}
