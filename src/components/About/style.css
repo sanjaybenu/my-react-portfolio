@@ -10,3 +10,14 @@ p {
 
     font-size: 1.25rem;
 }
+
+@media screen and (max-width: 540px) {
+
+    p {
+        font-size: 0.8rem;
+    }
+    #about {
+        width: 95%;
+        padding: 10px;
+    }
+}

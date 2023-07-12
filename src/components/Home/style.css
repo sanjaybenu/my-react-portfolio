@@ -17,3 +17,12 @@
   #Home span {
     color: #00b5ad;
   }
+
+  @media screen and (max-width:540px) {
+    #Home h1 {
+      font-size: 40px !important;
+    }
+    #Home p {
+      font-size: 1.25rem !important;
+    }
+  }

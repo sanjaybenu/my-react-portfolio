@@ -29,3 +29,13 @@
     padding: 5px;
     color: #00B5AD;
   }
+
+  @media screen and (max-width : 540px) {
+    .footer {
+      height: 100px;
+    } 
+    .icon {
+          padding: 2px;
+          margin-top: 5px;
+    }
+  }
