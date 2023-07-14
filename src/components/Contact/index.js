@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import './style.css'
+import React, { useState } from "react";
+import "./style.css";
 
 const Contact = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
@@ -16,26 +16,26 @@ const Contact = () => {
     const phoneRegex = /^\d+$/;
 
     if (!name || !email || !phone || !message) {
-      alert('Please fill in all fields');
+      alert("Please fill in all fields");
       return;
     }
 
     if (!emailRegex.test(email)) {
-      alert('Please enter a valid email');
+      alert("Please enter a valid email");
       return;
     }
 
     if (!phoneRegex.test(phone)) {
-      alert('Please enter a valid phone number');
+      alert("Please enter a valid phone number");
       return;
     }
 
     setSubmitted(true);
 
-    setName('');
-    setEmail('');
-    setPhone('');
-    setMessage('');
+    setName("");
+    setEmail("");
+    setPhone("");
+    setMessage("");
 
     setTimeout(() => {
       setSubmitted(false);
@@ -47,7 +47,7 @@ const Contact = () => {
       {submitted ? (
         <p>Information submitted successfully!</p>
       ) : (
-        <form className='form' onSubmit={handleSubmit}>
+        <form className="form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
             <input
@@ -87,7 +87,9 @@ const Contact = () => {
               required
             />
           </div>
-          <button className='btn btn-primary' type="submit">Submit</button>
+          <button className="btn btn-primary" type="submit">
+            Submit
+          </button>
         </form>
       )}
     </div>

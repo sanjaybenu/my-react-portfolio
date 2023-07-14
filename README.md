@@ -3,20 +3,21 @@
 ![Github license](https://img.shields.io/badge/license-MIT-blue)
 
 ## Table of Contents
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contribute](#contribute)
-* [Contributors](#contributors)
-* [Testing](#tests)
-* [License](#license)
-* [Questions](#questions)
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [Contributors](#contributors)
+- [Testing](#tests)
+- [License](#license)
+- [Questions](#questions)
+
 ## Description
 
 This React App has been created to showcase my React skills to create a frontend app. This app has been designed to show case my portfolio of selected projects , my technical and soft skills.
 
 There is also a contact section, which can be used to get in touch with me
-
 
 ## Screenshots
 
@@ -38,20 +39,23 @@ run the following commands
 ```
 npm install
 ```
+
 to install dependencies
 
 then
 run
+
 ```
 npm start
 ```
+
 to run app locally.
 
 ## Usage
 
 App can be accessed by either clicking on the following link or typing the address directly in the browser of your choice.
 
- https://sanjaybenu.github.io/my-react-portfolio/
+https://sanjaybenu.github.io/my-react-portfolio/
 
 Give it a go!!!!!
 
@@ -72,7 +76,6 @@ I would like to acknowledge my tutors Jack Song and Sid Baral of Monash Universi
 This project is created under MIT license.
 
 Users of software using an MIT License are permitted to use, copy, modify, merge publish, distribute, sublicense, and sell copies of the software.
-
 
 ## Questions
 

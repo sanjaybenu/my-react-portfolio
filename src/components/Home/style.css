@@ -1,28 +1,28 @@
 #Home {
-    text-align: center;
-  }
-  
-  #Home h1 {
-    color: #16325C;
-    font-weight: 800;
-    font-size: 60px;
-  }
-  
-  #Home p {
-    color: #090909;
-    font-weight: 700;
-    font-size: 3rem;
-  }
-  
-  #Home span {
-    color: #00b5ad;
-  }
+  text-align: center;
+}
 
-  @media screen and (max-width:540px) {
-    #Home h1 {
-      font-size: 40px !important;
-    }
-    #Home p {
-      font-size: 1.25rem !important;
-    }
+#Home h1 {
+  color: #16325c;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+#Home p {
+  color: #090909;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+#Home span {
+  color: #00b5ad;
+}
+
+@media screen and (max-width: 540px) {
+  #Home h1 {
+    font-size: 40px !important;
   }
+  #Home p {
+    font-size: 1.25rem !important;
+  }
+}

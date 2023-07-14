@@ -3,7 +3,7 @@ import Header from "../src/components/Header";
 import Footer from "../src/components/Footer";
 import Page from "../src/components/Page";
 import Navigation from "../src/components/Navigation";
-import './App.css'
+import "./App.css";
 const App = () => {
   const [pages] = useState([
     { name: "Home" },
@@ -24,7 +24,7 @@ const App = () => {
           setCurrentPage={setCurrentPage}
         />
       </Header>
-      <section id='app'>
+      <section id="app">
         <Page currentPage={currentPage} />
       </section>
 

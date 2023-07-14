@@ -55,7 +55,11 @@ const Resume = () => {
         </Accordion.Item>
       </Accordion>
       <div id="button">
-        <a href={process.env.PUBLIC_URL+"/Resume.pdf"} target="_blank" rel="noreferrer">
+        <a
+          href={process.env.PUBLIC_URL + "/Resume.pdf"}
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="btn btn-primary">Download Resume</button>
         </a>
       </div>

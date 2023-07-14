@@ -1,18 +1,13 @@
-
 #button {
-
-    margin-top:20px;
+  margin-top: 20px;
 }
 
-.list{
-
-    text-align: center;
-    font-size: 1.25rem;
-
+.list {
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 .list-item {
-
-    background-color: gray !important;
-    color:#fff !important;
+  background-color: gray !important;
+  color: #fff !important;
 }

@@ -1,8 +1,7 @@
 #nav {
-    background-color: transparent !important;
-  }
-  
-  .active {
-  
-    color: #00B5AD !important; 
-  }
+  background-color: transparent !important;
+}
+
+.active {
+  color: #00b5ad !important;
+}
