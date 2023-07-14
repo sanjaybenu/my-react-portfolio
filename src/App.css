@@ -1,4 +1,5 @@
-section {
-  padding: 10px;
+#app {
   overflow-y: auto;
+  background-image: linear-gradient(to right top, #16325c, #006486, #009691, #7cc388, #f0e68c);
+  min-height: 100vh;
 }
