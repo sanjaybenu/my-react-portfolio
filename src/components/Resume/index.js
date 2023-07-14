@@ -3,6 +3,28 @@ import Accordion from "react-bootstrap/Accordion";
 import ListGroup from "react-bootstrap/ListGroup";
 import "./style.css";
 
+const TechSkills = [
+  "JavaScript",
+  "React",
+  "Progressive Web Apps",
+  "Mern Stack",
+  "NoSQL",
+  "SQL",
+  "jQuery",
+  "Bootstrap",
+  "CSS",
+  "HTML",
+];
+const SoftSkills = [
+  "Strong Communication",
+  "Problem Solving",
+  "Time Management",
+  "Operations Management",
+  "People Management",
+  "Technical Writing",
+  "Team Building",
+];
+
 const Resume = () => {
   return (
     <div className="container text-center center">
@@ -11,18 +33,11 @@ const Resume = () => {
           <Accordion.Header>Technical Skills</Accordion.Header>
           <Accordion.Body>
             <ListGroup className="list">
-              <ListGroup.Item className="list-item">JavaScript</ListGroup.Item>
-              <ListGroup.Item className="list-item">React</ListGroup.Item>
-              <ListGroup.Item className="list-item">
-                Progressive Web Apps
-              </ListGroup.Item>
-              <ListGroup.Item className="list-item">Mern Stack</ListGroup.Item>
-              <ListGroup.Item className="list-item">NoSQL</ListGroup.Item>
-              <ListGroup.Item className="list-item">SQL</ListGroup.Item>
-              <ListGroup.Item className="list-item">Jquery</ListGroup.Item>
-              <ListGroup.Item className="list-item">BootStrap</ListGroup.Item>
-              <ListGroup.Item className="list-item">CSS</ListGroup.Item>
-              <ListGroup.Item className="list-item">HTML</ListGroup.Item>
+              {TechSkills.map((TechSkill) => (
+                <ListGroup.Item className="list-item">
+                  {TechSkill}
+                </ListGroup.Item>
+              ))}
             </ListGroup>
           </Accordion.Body>
         </Accordion.Item>
@@ -30,27 +45,11 @@ const Resume = () => {
           <Accordion.Header>Soft Skills</Accordion.Header>
           <Accordion.Body>
             <ListGroup className="list">
-              <ListGroup.Item className="list-item">
-                Strong Communication
-              </ListGroup.Item>
-              <ListGroup.Item className="list-item">
-                Problem Solving
-              </ListGroup.Item>
-              <ListGroup.Item className="list-item">
-                Time Management
-              </ListGroup.Item>
-              <ListGroup.Item className="list-item">
-                Operations Management
-              </ListGroup.Item>
-              <ListGroup.Item className="list-item">
-                People Management
-              </ListGroup.Item>
-              <ListGroup.Item className="list-item">
-                Technical Writing
-              </ListGroup.Item>
-              <ListGroup.Item className="list-item">
-                Team Building
-              </ListGroup.Item>
+              {SoftSkills.map((SoftSkill) => (
+                <ListGroup.Item className="list-item">
+                  {SoftSkill}
+                </ListGroup.Item>
+              ))}
             </ListGroup>
           </Accordion.Body>
         </Accordion.Item>
