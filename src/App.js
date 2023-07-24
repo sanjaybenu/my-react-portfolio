@@ -5,6 +5,7 @@ import Page from "../src/components/Page";
 import Navigation from "../src/components/Navigation";
 import "./App.css";
 const App = () => {
+  // setting state for pages array
   const [pages] = useState([
     { name: "Home" },
     { name: "About" },
@@ -12,7 +13,7 @@ const App = () => {
     { name: "Contact" },
     { name: "Resume" },
   ]);
-
+  //setting currentPage intial value as Home ie page[0]
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (

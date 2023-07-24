@@ -1,10 +1,10 @@
 import React from "react";
 
-const RenderProject = ({ project }) => {
+const Project = ({ project }) => {
   const { title, desc, github, deployedapp, image } = project;
 
   return (
-    <div key={title} className="col-lg-4 col-md-6 mb-2">
+    <div key={title} className="col-lg-4 col-md-6 mb-2 project">
       <div className="card h-100">
         <img src={image} class="card-img-top" alt={title} />
         <div className="card-body">
@@ -28,4 +28,4 @@ const RenderProject = ({ project }) => {
   );
 };
 
-export default RenderProject;
+export default Project;

@@ -2,7 +2,7 @@ import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import ListGroup from "react-bootstrap/ListGroup";
 import "./style.css";
-
+//setting TechSkills values
 const TechSkills = [
   "JavaScript",
   "React",
@@ -15,6 +15,8 @@ const TechSkills = [
   "CSS",
   "HTML",
 ];
+
+//setting SoftSkills values
 const SoftSkills = [
   "Strong Communication",
   "Problem Solving",
@@ -55,6 +57,7 @@ const Resume = () => {
         </Accordion.Item>
       </Accordion>
       <div id="button">
+       {/* setting href to PUBLIC_URL as provided by React */}
         <a
           href={process.env.PUBLIC_URL + "/Resume.pdf"}
           target="_blank"
