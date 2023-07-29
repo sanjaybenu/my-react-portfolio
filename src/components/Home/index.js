@@ -17,7 +17,7 @@ const Home = () => {
   ];
   return (
     <div id="Home">
-      <Fade duration={5000} cascade={true} direction="up">
+      <Fade duration={3000} cascade={true} direction="up">
         <h1>Hello There</h1>
         <p>My Name is Sanjay Chopra</p>
         <p>
@@ -28,7 +28,7 @@ const Home = () => {
       </Fade>
       <p>
         <span>
-          <Typist typingDelay={300} loop={true} startDelay={10000}>
+          <Typist typingDelay={300} loop={true} startDelay={6000}>
             {languages.map((language) => (
               <React.Fragment key={language}>
                 <span>{language}</span>
