@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.bac06f50.css",
-    "main.js": "/my-react-portfolio/static/js/main.aa28a8e5.js",
+    "main.css": "/my-react-portfolio/static/css/main.9b00044f.css",
+    "main.js": "/my-react-portfolio/static/js/main.52630e5b.js",
     "static/media/Go-Blogging-Tech.png": "/my-react-portfolio/static/media/Go-Blogging-Tech.8b2fa3a619b66dc0302c.png",
     "static/media/AIO-App.png": "/my-react-portfolio/static/media/AIO-App.ec05877c8cc5fe2340b8.png",
     "static/media/Recipe-Bank.png": "/my-react-portfolio/static/media/Recipe-Bank.0abe53f54682129edbd0.png",
     "static/media/Scheduler-App.png": "/my-react-portfolio/static/media/Scheduler-App.c49b72fb8634abccfd0f.png",
     "static/media/Weather-App-With-Map.png": "/my-react-portfolio/static/media/Weather-App-With-Map.ba7255006cc5ea5af2c8.png",
+    "static/media/avatar.png": "/my-react-portfolio/static/media/avatar.3d16681bfb3e9b7e6e71.png",
     "static/media/Text-Editing-Everywhere.png": "/my-react-portfolio/static/media/Text-Editing-Everywhere.dad08fcae39117d3ceaa.png",
     "static/media/sanjay.jpeg": "/my-react-portfolio/static/media/sanjay.b7e2857c34f4f4e99d9c.jpeg",
     "index.html": "/my-react-portfolio/index.html",
-    "main.bac06f50.css.map": "/my-react-portfolio/static/css/main.bac06f50.css.map",
-    "main.aa28a8e5.js.map": "/my-react-portfolio/static/js/main.aa28a8e5.js.map"
+    "main.9b00044f.css.map": "/my-react-portfolio/static/css/main.9b00044f.css.map",
+    "main.52630e5b.js.map": "/my-react-portfolio/static/js/main.52630e5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.bac06f50.css",
-    "static/js/main.aa28a8e5.js"
+    "static/css/main.9b00044f.css",
+    "static/js/main.52630e5b.js"
   ]
 }
