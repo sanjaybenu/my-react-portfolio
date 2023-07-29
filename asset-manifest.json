@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.9b00044f.css",
-    "main.js": "/my-react-portfolio/static/js/main.52630e5b.js",
+    "main.js": "/my-react-portfolio/static/js/main.2cb250a5.js",
     "static/media/Go-Blogging-Tech.png": "/my-react-portfolio/static/media/Go-Blogging-Tech.8b2fa3a619b66dc0302c.png",
     "static/media/AIO-App.png": "/my-react-portfolio/static/media/AIO-App.ec05877c8cc5fe2340b8.png",
     "static/media/Recipe-Bank.png": "/my-react-portfolio/static/media/Recipe-Bank.0abe53f54682129edbd0.png",
@@ -12,10 +12,10 @@
     "static/media/sanjay.jpeg": "/my-react-portfolio/static/media/sanjay.b7e2857c34f4f4e99d9c.jpeg",
     "index.html": "/my-react-portfolio/index.html",
     "main.9b00044f.css.map": "/my-react-portfolio/static/css/main.9b00044f.css.map",
-    "main.52630e5b.js.map": "/my-react-portfolio/static/js/main.52630e5b.js.map"
+    "main.2cb250a5.js.map": "/my-react-portfolio/static/js/main.2cb250a5.js.map"
   },
   "entrypoints": [
     "static/css/main.9b00044f.css",
-    "static/js/main.52630e5b.js"
+    "static/js/main.2cb250a5.js"
   ]
 }
