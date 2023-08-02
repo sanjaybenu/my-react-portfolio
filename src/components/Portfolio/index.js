@@ -10,6 +10,7 @@ const travel = require("../../images/AIO-App.png");
 const weather = require("../../images/Weather-App-With-Map.png");
 const text = require("../../images/Text-Editing-Everywhere.png");
 const schedule = require("../../images/Scheduler-App.png");
+const chat = require("../../images/chat.png")
 
 const Projects = [
   {
@@ -48,12 +49,21 @@ const Projects = [
     image: text,
   },
   {
+    title: "chatalong",
+    desc: " A place for people to come and chat about their favourite topics. From issues to learning a new language or places to go to eat. These are all things we can talk about at ChatAlong",
+    github: "https://github.com/NanthanTK/ChatAlong",
+    deployedapp: "https://chatalong-50aa45c36357.herokuapp.com/",
+    image: chat,
+
+  },
+  {
     title: "my-daily-scheduler-app",
     desc: " This app provides a tool to an employee, so that the employee can create a daily work plan. The app shows the current day and time on the top of the page and has color coded hourly slots",
     github: "https://github.com/sanjaybenu/My-Daily-Schedule-App",
     deployedapp: "https://sanjaybenu.github.io/My-Daily-Schedule-App/",
     image: schedule,
   },
+  
 ];
 
 const Portfolio = () => {
