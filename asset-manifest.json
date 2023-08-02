@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.9b00044f.css",
-    "main.js": "/my-react-portfolio/static/js/main.2cb250a5.js",
+    "main.js": "/my-react-portfolio/static/js/main.f85ffca0.js",
     "static/media/Go-Blogging-Tech.png": "/my-react-portfolio/static/media/Go-Blogging-Tech.8b2fa3a619b66dc0302c.png",
     "static/media/AIO-App.png": "/my-react-portfolio/static/media/AIO-App.ec05877c8cc5fe2340b8.png",
     "static/media/Recipe-Bank.png": "/my-react-portfolio/static/media/Recipe-Bank.0abe53f54682129edbd0.png",
+    "static/media/chat.png": "/my-react-portfolio/static/media/chat.8ff25c7ce4726a2c9e53.png",
     "static/media/Scheduler-App.png": "/my-react-portfolio/static/media/Scheduler-App.c49b72fb8634abccfd0f.png",
     "static/media/Weather-App-With-Map.png": "/my-react-portfolio/static/media/Weather-App-With-Map.ba7255006cc5ea5af2c8.png",
     "static/media/avatar.png": "/my-react-portfolio/static/media/avatar.3d16681bfb3e9b7e6e71.png",
@@ -12,10 +13,10 @@
     "static/media/sanjay.jpeg": "/my-react-portfolio/static/media/sanjay.b7e2857c34f4f4e99d9c.jpeg",
     "index.html": "/my-react-portfolio/index.html",
     "main.9b00044f.css.map": "/my-react-portfolio/static/css/main.9b00044f.css.map",
-    "main.2cb250a5.js.map": "/my-react-portfolio/static/js/main.2cb250a5.js.map"
+    "main.f85ffca0.js.map": "/my-react-portfolio/static/js/main.f85ffca0.js.map"
   },
   "entrypoints": [
     "static/css/main.9b00044f.css",
-    "static/js/main.2cb250a5.js"
+    "static/js/main.f85ffca0.js"
   ]
 }
