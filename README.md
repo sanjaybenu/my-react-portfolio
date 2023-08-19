@@ -57,6 +57,14 @@ App can be accessed by either clicking on the following link or typing the addre
 
 https://sanjaybenu.github.io/my-react-portfolio/
 
+Portfolio with darkmode is deployed on
+
+https://myportfolio-sc.netlify.app/
+
+Git hub repo for above
+
+https://github.com/sanjaybenu/theme-toggler
+
 Give it a go!!!!!
 
 ## Tests
